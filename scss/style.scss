@@ -115,21 +115,19 @@ body {
   }
 }
 
-#home .col-4 {
+#home {
   .swiper-button {
     border: 2px solid #59884e;
-    display: block;
     box-sizing: border-box;
     color: #59884e;
-    height: 45px;
     background-color: #f7fff5;
-    border-radius: 22.5px;
+    border-radius: 50px;
     font: bold 18px/21px $fonts-family;
     text-align: center;
-    margin: auto;
+    padding: 11px 30px;
+    margin: 10px 15px;
     @media screen and (max-width: 576px) {
-      font-size: 11px;
-      margin: auto;
+      font-size: 14px;
     }
     &.active {
       background-color: #59884e;

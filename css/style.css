@@ -27,7 +27,9 @@ body {
   background-repeat: no-repeat;
   background-position: 0;
   min-height: 100vh;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .display-4 {
@@ -46,7 +48,8 @@ body {
 .button {
   border: 2px solid #ffffff;
   display: inline-block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 27.5px;
   background-color: transparent;
   color: #ffffff;
@@ -118,32 +121,32 @@ body {
 #home .col-md-6 img {
   display: block;
   width: 506px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   max-width: 100%;
   margin: auto;
 }
 
-#home .col-4 .swiper-button {
+#home .swiper-button {
   border: 2px solid #59884e;
-  display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #59884e;
-  height: 45px;
   background-color: #f7fff5;
-  border-radius: 22.5px;
+  border-radius: 50px;
   font: bold 18px/21px "Raleway", sans-serif;
   text-align: center;
-  margin: auto;
+  padding: 11px 30px;
+  margin: 10px 15px;
 }
 
 @media screen and (max-width: 576px) {
-  #home .col-4 .swiper-button {
-    font-size: 11px;
-    margin: auto;
+  #home .swiper-button {
+    font-size: 14px;
   }
 }
 
-#home .col-4 .swiper-button.active {
+#home .swiper-button.active {
   background-color: #59884e;
   color: #f7fff5;
 }
@@ -189,7 +192,8 @@ body {
 #home-1 .col-md-6 img {
   display: block;
   width: 506px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   max-width: 100%;
   margin: auto;
 }
@@ -197,7 +201,8 @@ body {
 #home-1 .col-4 .button7 {
   border: 2px solid #59884e;
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #59884e;
   height: 45px;
   background-color: #f7fff5;
@@ -217,7 +222,8 @@ body {
 #home-1 .col-4 .button8 {
   border: 2px solid #59884e;
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #59884e;
   height: 45px;
   background-color: #f7fff5;
@@ -237,7 +243,8 @@ body {
 #home-1 .col-4 .button9 {
   border: 2px solid #59884e;
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #59884e;
   height: 45px;
   background-color: #f7fff5;
@@ -284,7 +291,8 @@ body {
 #home-2 .col-md-6 img {
   display: block;
   width: 506px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   max-width: 100%;
   margin: auto;
 }
@@ -292,7 +300,8 @@ body {
 #home-2 .col-4 .button10 {
   border: 2px solid #59884e;
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #59884e;
   height: 45px;
   background-color: #f7fff5;
@@ -312,7 +321,8 @@ body {
 #home-2 .col-4 .button11 {
   border: 2px solid #59884e;
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #59884e;
   height: 45px;
   background-color: #f7fff5;
@@ -332,7 +342,8 @@ body {
 #home-2 .col-4 .button12 {
   border: 2px solid #59884e;
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #59884e;
   height: 45px;
   background-color: #f7fff5;
@@ -359,6 +370,8 @@ body {
 #home2 .home2-title {
   color: #ffffff;
   font: bold 72px/85px "Raleway", sans-serif;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   font-size: 46px;
   line-height: 60px;
@@ -423,7 +436,8 @@ body {
 .button2 {
   border: 2px solid #ffffff;
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #59884e;
   width: 237px;
   height: 45px;
@@ -479,7 +493,8 @@ body {
 .button3 {
   border: 2px solid #232721;
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 27.5px;
   background-color: transparent;
   color: #232721;
@@ -499,7 +514,9 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .judul {
@@ -515,6 +532,8 @@ body {
 }
 
 .body1 .container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   border: 1px solid transparent;
   margin: auto;
@@ -525,7 +544,9 @@ body {
 
 .body1 .konten {
   text-align: center;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .title {
@@ -554,6 +575,8 @@ body {
   color: #ffffff;
   z-index: 2;
   background-color: #59884e;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -593,6 +616,8 @@ body {
 }
 
 #body2 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   padding-bottom: 70px;
 }
@@ -626,7 +651,8 @@ body {
 #body2 .col-md-6 img {
   width: 517px;
   margin: 20px 0 0 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   max-width: 100%;
 }
 
@@ -647,6 +673,8 @@ body {
 #home3 .home3-title {
   color: #ffffff;
   font: bold 72px/85px "Raleway", sans-serif;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   font-size: 46px;
   line-height: 60px;
