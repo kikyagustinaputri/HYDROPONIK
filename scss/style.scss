@@ -65,6 +65,22 @@ body {
 
 #home {
   margin-bottom: 45px;
+  .swiper {
+    &-button-prev {
+      font-size: 2rem;
+      color: #59884e;
+      &::after {
+        content: "";
+      }
+    }
+    &-button-next {
+      font-size: 2rem;
+      color: #59884e;
+      &::after {
+        content: "";
+      }
+    }
+  }
 }
 
 #home .col-md-6 {
@@ -100,7 +116,7 @@ body {
 }
 
 #home .col-4 {
-  .button4 {
+  .swiper-button {
     border: 2px solid #59884e;
     display: block;
     box-sizing: border-box;
@@ -115,37 +131,9 @@ body {
       font-size: 11px;
       margin: auto;
     }
-  }
-  .button5 {
-    border: 2px solid #59884e;
-    display: block;
-    box-sizing: border-box;
-    color: #59884e;
-    height: 45px;
-    background-color: #f7fff5;
-    border-radius: 22.5px;
-    font: bold 18px/21px $fonts-family;
-    text-align: center;
-    margin: auto;
-    @media screen and (max-width: 576px) {
-      font-size: 11px;
-      margin: auto;
-    }
-  }
-  .button6 {
-    border: 2px solid #59884e;
-    display: block;
-    box-sizing: border-box;
-    color: #59884e;
-    height: 45px;
-    background-color: #f7fff5;
-    border-radius: 22.5px;
-    font: bold 18px/21px $fonts-family;
-    text-align: center;
-    margin: auto;
-    @media screen and (max-width: 576px) {
-      font-size: 11px;
-      margin: auto;
+    &.active {
+      background-color: #59884e;
+      color: #f7fff5;
     }
   }
 }
