@@ -67,7 +67,8 @@ header#monitoring .header-desc {
 .monitoring-container {
   background-color: #ffffff;
   border-radius: 30px;
-  box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.25);
 }
 
 .monitoring-container .monitoring-title {
@@ -93,7 +94,10 @@ body {
   background-repeat: no-repeat;
   background-position: 0;
   min-height: 100vh;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-attachment: fixed;
 }
 
 .display-4 {
@@ -112,7 +116,8 @@ body {
 .button {
   border: 2px solid #ffffff;
   display: inline-block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 27.5px;
   background-color: transparent;
   color: #ffffff;
@@ -154,44 +159,46 @@ body {
   content: "";
 }
 
-#home .col-md-6 p {
+#home .col-md-6 .paragraf {
   text-align: justify;
   margin: 20px 0 0 0;
   font: normal 20px/25px "Raleway", sans-serif;
 }
 
 @media screen and (max-width: 576px) {
-  #home .col-md-6 p {
+  #home .col-md-6 .paragraf {
     font-size: 13px;
     line-height: 19px;
     margin: 20px 0 0 0;
   }
 }
 
-#home .col-md-6 h2 {
+#home .col-md-6 .judul-bagian2 {
   margin: 20px 0 0 0;
   font: normal 36px/42px "Raleway", sans-serif;
 }
 
 @media screen and (max-width: 576px) {
-  #home .col-md-6 h2 {
+  #home .col-md-6 .judul-bagian2 {
     font-size: 26px;
     line-height: 36px;
     margin: 20px 0 0 0;
   }
 }
 
-#home .col-md-6 img {
+#home .col-md-6 .gambar-bagian2 {
   display: block;
   width: 506px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   max-width: 100%;
   margin: auto;
 }
 
 #home .swiper-button {
   border: 2px solid #59884e;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #59884e;
   background-color: #f7fff5;
   border-radius: 50px;
@@ -253,7 +260,8 @@ body {
 #home-1 .col-md-6 img {
   display: block;
   width: 506px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   max-width: 100%;
   margin: auto;
 }
@@ -261,7 +269,8 @@ body {
 #home-1 .col-4 .button7 {
   border: 2px solid #59884e;
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #59884e;
   height: 45px;
   background-color: #f7fff5;
@@ -273,7 +282,7 @@ body {
 
 @media screen and (max-width: 576px) {
   #home-1 .col-4 .button7 {
-    font-size: 11px;
+    font-size: 14px;
     margin: auto;
   }
 }
@@ -281,7 +290,8 @@ body {
 #home-1 .col-4 .button8 {
   border: 2px solid #59884e;
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #59884e;
   height: 45px;
   background-color: #f7fff5;
@@ -293,7 +303,7 @@ body {
 
 @media screen and (max-width: 576px) {
   #home-1 .col-4 .button8 {
-    font-size: 11px;
+    font-size: 14px;
     margin: auto;
   }
 }
@@ -301,7 +311,8 @@ body {
 #home-1 .col-4 .button9 {
   border: 2px solid #59884e;
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #59884e;
   height: 45px;
   background-color: #f7fff5;
@@ -313,7 +324,7 @@ body {
 
 @media screen and (max-width: 576px) {
   #home-1 .col-4 .button9 {
-    font-size: 11px;
+    font-size: 14px;
     margin: auto;
   }
 }
@@ -348,7 +359,8 @@ body {
 #home-2 .col-md-6 img {
   display: block;
   width: 506px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   max-width: 100%;
   margin: auto;
 }
@@ -356,7 +368,8 @@ body {
 #home-2 .col-4 .button10 {
   border: 2px solid #59884e;
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #59884e;
   height: 45px;
   background-color: #f7fff5;
@@ -368,7 +381,7 @@ body {
 
 @media screen and (max-width: 576px) {
   #home-2 .col-4 .button10 {
-    font-size: 11px;
+    font-size: 14px;
     margin: auto;
   }
 }
@@ -376,7 +389,8 @@ body {
 #home-2 .col-4 .button11 {
   border: 2px solid #59884e;
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #59884e;
   height: 45px;
   background-color: #f7fff5;
@@ -388,7 +402,7 @@ body {
 
 @media screen and (max-width: 576px) {
   #home-2 .col-4 .button11 {
-    font-size: 11px;
+    font-size: 14px;
     margin: auto;
   }
 }
@@ -396,7 +410,8 @@ body {
 #home-2 .col-4 .button12 {
   border: 2px solid #59884e;
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #59884e;
   height: 45px;
   background-color: #f7fff5;
@@ -408,7 +423,7 @@ body {
 
 @media screen and (max-width: 576px) {
   #home-2 .col-4 .button12 {
-    font-size: 11px;
+    font-size: 14px;
     margin: auto;
   }
 }
@@ -423,6 +438,8 @@ body {
 #home2 .home2-title {
   color: #ffffff;
   font: bold 72px/85px "Raleway", sans-serif;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   font-size: 46px;
   line-height: 60px;
@@ -438,11 +455,11 @@ body {
   margin-bottom: 73px;
 }
 
-.cards img {
+.cards .gambar-tanaman {
   width: 245px;
-  height: 245px;
   display: block;
   margin: auto;
+  padding: 0 10px;
 }
 
 .cards .table {
@@ -457,13 +474,30 @@ body {
   padding: 30px 0 10px;
 }
 
-.cards .table td {
+.cards .table .rincian-tanaman .penjelasan {
   font: normal 14px/16px "Raleway", sans-serif;
   font-family: Raleway;
   text-align: justify;
   letter-spacing: 0.04em;
-  padding: 29px 0 10px;
   color: #f7fff5;
+}
+
+.cards .table .rincian-tanaman .titik {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #f7fff5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cards .table .rincian-tanaman .gambar-bagian3 {
+  width: 13.16px;
+  position: absolute;
+  display: block;
+  padding: 0 3px;
 }
 
 .footer {
@@ -487,7 +521,8 @@ body {
 .button2 {
   border: 2px solid #ffffff;
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #59884e;
   width: 237px;
   height: 45px;
@@ -506,7 +541,7 @@ body {
   padding-bottom: 53px;
 }
 
-.cards4 h2 {
+.cards4 .title-4 {
   font: normal 18px/21px "Raleway", sans-serif;
   font-weight: 500;
   color: #000000;
@@ -515,7 +550,7 @@ body {
   text-align: center;
 }
 
-.cards4 h2::before {
+.cards4 .title-4::before {
   display: block;
   content: "";
   width: 237px;
@@ -523,16 +558,18 @@ body {
   background-color: #000000;
   margin-bottom: 10px;
   margin: auto;
+  max-width: 100%;
 }
 
-.cards4 img {
-  width: 237px;
-  height: 267px;
+.cards4 .gambar-artikel {
+  width: 236px;
   display: block;
   margin: auto;
+  max-width: 100%;
+  padding: 0 5px;
 }
 
-.cards4 p {
+.cards4 .paragraf-artikel {
   font: normal 14px/16px "Raleway", sans-serif;
   text-align: justify;
   letter-spacing: 0.04em;
@@ -543,7 +580,8 @@ body {
 .button3 {
   border: 2px solid #232721;
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 27.5px;
   background-color: transparent;
   color: #232721;
@@ -563,7 +601,10 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-attachment: fixed;
 }
 
 .judul {
@@ -579,6 +620,8 @@ body {
 }
 
 .body1 .container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   border: 1px solid transparent;
   margin: auto;
@@ -589,7 +632,9 @@ body {
 
 .body1 .konten {
   text-align: center;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .title {
@@ -618,6 +663,8 @@ body {
   color: #ffffff;
   z-index: 2;
   background-color: #59884e;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -657,6 +704,8 @@ body {
 }
 
 #body2 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   padding-bottom: 70px;
 }
@@ -690,7 +739,8 @@ body {
 #body2 .col-md-6 img {
   width: 517px;
   margin: 20px 0 0 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   max-width: 100%;
 }
 
@@ -698,61 +748,5 @@ body {
   margin: 20px 0 0 0;
   font-size: 14px;
   color: #000;
-}
-
-/* Page 3 */
-#home3 {
-  background-color: #59884e;
-  background-size: cover;
-  background-position: 0;
-  padding: 73px 0 10px;
-}
-
-#home3 .home3-title {
-  color: #ffffff;
-  font: bold 72px/85px "Raleway", sans-serif;
-  width: fit-content;
-  font-size: 46px;
-  line-height: 60px;
-}
-
-#home3 .home3-title::after {
-  display: block;
-  content: "";
-  width: 80%;
-  height: 2px;
-  background-color: #f7fff5;
-  margin-top: 28px;
-  margin-bottom: 73px;
-}
-
-.cards img {
-  width: 245px;
-  height: 245px;
-}
-
-.cards .table {
-  color: #ffffff;
-}
-
-.cards .table th {
-  font: bold 14px/16px "Raleway", sans-serif;
-  text-align: justify;
-  letter-spacing: 0.04em;
-  border-bottom: 1px solid;
-  padding: 30px 0 10px;
-}
-
-.cards .table td {
-  font: normal 14px/16px "Raleway", sans-serif;
-  font-family: Raleway;
-  text-align: justify;
-  letter-spacing: 0.04em;
-  padding: 29px 0 10px;
-  color: #f7fff5;
-}
-
-.cards .table td .bi {
-  padding-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */

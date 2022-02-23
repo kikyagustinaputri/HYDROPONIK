@@ -32,6 +32,7 @@ body {
   background-position: 0;
   min-height: 100vh;
   align-items: center;
+  background-attachment: fixed;
 }
 
 .display-4 {
@@ -85,7 +86,7 @@ body {
 }
 
 #home .col-md-6 {
-  p {
+  .paragraf {
     text-align: justify;
     margin: 20px 0 0 0;
     font: normal 20px/25px $fonts-family;
@@ -95,7 +96,7 @@ body {
       margin: 20px 0 0 0;
     }
   }
-  h2 {
+  .judul-bagian2 {
     margin: 20px 0 0 0;
     font: normal 36px/42px $fonts-family;
     @media screen and (max-width: 576px) {
@@ -107,7 +108,7 @@ body {
 }
 
 #home .col-md-6 {
-  img {
+  .gambar-bagian2 {
     display: block;
     width: 506px;
     box-sizing: border-box;
@@ -193,7 +194,7 @@ body {
     text-align: center;
     margin: auto;
     @media screen and (max-width: 576px) {
-      font-size: 11px;
+      font-size: 14px;
       margin: auto;
     }
   }
@@ -209,7 +210,7 @@ body {
     text-align: center;
     margin: auto;
     @media screen and (max-width: 576px) {
-      font-size: 11px;
+      font-size: 14px;
       margin: auto;
     }
   }
@@ -225,7 +226,7 @@ body {
     text-align: center;
     margin: auto;
     @media screen and (max-width: 576px) {
-      font-size: 11px;
+      font-size: 14px;
       margin: auto;
     }
   }
@@ -276,7 +277,7 @@ body {
     text-align: center;
     margin: auto;
     @media screen and (max-width: 576px) {
-      font-size: 11px;
+      font-size: 14px;
       margin: auto;
     }
   }
@@ -292,7 +293,7 @@ body {
     text-align: center;
     margin: auto;
     @media screen and (max-width: 576px) {
-      font-size: 11px;
+      font-size: 14px;
       margin: auto;
     }
   }
@@ -308,7 +309,7 @@ body {
     text-align: center;
     margin: auto;
     @media screen and (max-width: 576px) {
-      font-size: 11px;
+      font-size: 14px;
       margin: auto;
     }
   }
@@ -338,11 +339,11 @@ body {
 }
 
 .cards {
-  img {
+  .gambar-tanaman {
     width: 245px;
-    height: 245px;
     display: block;
     margin: auto;
+    padding: 0 10px;
   }
   .table {
     color: $color-white;
@@ -353,13 +354,29 @@ body {
       border-bottom: 1px solid;
       padding: 30px 0 10px;
     }
-    td {
-      font: normal 14px/16px $fonts-family;
-      font-family: Raleway;
-      text-align: justify;
-      letter-spacing: 0.04em;
-      padding: 29px 0 10px;
-      color: #f7fff5;
+    .rincian-tanaman {
+      .penjelasan {
+        font: normal 14px/16px $fonts-family;
+        font-family: Raleway;
+        text-align: justify;
+        letter-spacing: 0.04em;
+        color: #f7fff5;
+      }
+      .titik {
+        position: absolute;
+        content: "";
+        width: 5px;
+        height: 5px;
+        border-radius: 5px;
+        background-color: #f7fff5;
+        box-sizing: border-box;
+      }
+      .gambar-bagian3 {
+        width: 13.16px;
+        position: absolute;
+        display: block;
+        padding: 0 3px;
+      }
     }
   }
 }
@@ -402,7 +419,7 @@ body {
 }
 
 .cards4 {
-  h2 {
+  .title-4 {
     font: normal 18px/21px $fonts-family;
     font-weight: 500;
     color: #000000;
@@ -417,15 +434,17 @@ body {
       background-color: #000000;
       margin-bottom: 10px;
       margin: auto;
+      max-width: 100%;
     }
   }
-  img {
-    width: 237px;
-    height: 267px;
+  .gambar-artikel {
+    width: 236px;
     display: block;
     margin: auto;
+    max-width: 100%;
+    padding: 0 5px;
   }
-  p {
+  .paragraf-artikel {
     font: normal 14px/16px $fonts-family;
     text-align: justify;
     letter-spacing: 0.04em;
@@ -458,6 +477,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   align-items: center;
+  background-attachment: fixed;
 }
 .judul {
   font: bold 64px/75px $fonts-family;
@@ -575,58 +595,5 @@ body {
     margin: 20px 0 0 0;
     font-size: 14px;
     color: #000;
-  }
-}
-
-/* Page 3 */
-
-#home3 {
-  background-color: #59884e;
-  background-size: cover;
-  background-position: 0;
-  padding: 73px 0 10px;
-  .home3-title {
-    color: $color-white;
-    font: bold 72px/85px $fonts-family;
-    width: fit-content;
-    font-size: 46px;
-    line-height: 60px;
-    &::after {
-      display: block;
-      content: "";
-      width: 80%;
-      height: 2px;
-      background-color: #f7fff5;
-      margin-top: 28px;
-      margin-bottom: 73px;
-    }
-  }
-}
-
-.cards {
-  img {
-    width: 245px;
-    height: 245px;
-  }
-  .table {
-    color: $color-white;
-    th {
-      font: bold 14px/16px $fonts-family;
-      text-align: justify;
-      letter-spacing: 0.04em;
-      border-bottom: 1px solid;
-      padding: 30px 0 10px;
-    }
-    td {
-      font: normal 14px/16px $fonts-family;
-      font-family: Raleway;
-      text-align: justify;
-      letter-spacing: 0.04em;
-      padding: 29px 0 10px;
-      color: #f7fff5;
-      .bi {
-        padding-right: 10px;
-      }
-    }
   }
 }
